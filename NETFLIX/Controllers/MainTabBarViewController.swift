@@ -15,7 +15,7 @@ class MainTabBarViewController: UITabBarController {
     }
     
     func configure(){
-
+        
         view.backgroundColor = .systemBackground
         
         let homeVC = setUpMainTabBarNavigationController(selectedImage: UIImage(systemName: "house.fill")!, unselectedImage: UIImage(systemName: "house")!, viewController: HomeViewController(), title: "Home")
