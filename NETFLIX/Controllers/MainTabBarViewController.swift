@@ -14,8 +14,7 @@ class MainTabBarViewController: UITabBarController {
         configure()
     }
     
-    //MARK: Helpers
-    
+    //MARK: Helper
     
     func configure(){
         
