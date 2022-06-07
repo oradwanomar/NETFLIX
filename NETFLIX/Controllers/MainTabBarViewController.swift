@@ -31,9 +31,6 @@ class MainTabBarViewController: UITabBarController {
         
         viewControllers = [homeVC,upcomingVC,searchVC,downloadsVC]
         tabBar.tintColor = .label
-        
-        
-        
 
     }
     
