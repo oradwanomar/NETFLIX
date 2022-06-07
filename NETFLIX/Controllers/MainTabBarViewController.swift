@@ -31,8 +31,6 @@ class MainTabBarViewController: UITabBarController {
         
         viewControllers = [homeVC,upcomingVC,searchVC,downloadsVC]
         tabBar.tintColor = .label
-        
-
     }
     
     func setUpMainTabBarNavigationController(selectedImage: UIImage,unselectedImage: UIImage,viewController: UIViewController,title:String)->UINavigationController {
