@@ -17,5 +17,8 @@ class DownloadsViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
     }
+    
+    //MARK: - Helpers
+    func configureUI(){}
 
 }
