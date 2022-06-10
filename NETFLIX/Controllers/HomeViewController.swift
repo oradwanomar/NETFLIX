@@ -17,4 +17,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
     }
+    
+    //MARK: - Helpers
+    func configureUI(){}
 }
