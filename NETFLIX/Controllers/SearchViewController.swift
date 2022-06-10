@@ -11,8 +11,7 @@ class SearchViewController: UIViewController {
     
     //MARK: Properties
     
-    //MARK: Lifecycle
-
+    //MARK: Lifecycle 
     
     override func viewDidLoad() {
         super.viewDidLoad()
