@@ -18,5 +18,8 @@ class UpcomingViewController: UIViewController {
 
         view.backgroundColor = .systemBackground
     }
+    
+    //MARK: - Helpers
+    func configureUI(){}
 
 }
