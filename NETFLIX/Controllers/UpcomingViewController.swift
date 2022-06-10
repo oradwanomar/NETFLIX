@@ -8,6 +8,10 @@
 import UIKit
 
 class UpcomingViewController: UIViewController {
+    
+    //MARK: Properties
+    
+    //MARK: Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
