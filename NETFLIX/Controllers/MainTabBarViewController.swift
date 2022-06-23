@@ -11,13 +11,13 @@ class MainTabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        configure()
+        configureMainTabBar()
     }
     
     //MARK: Helpers
     
     
-    func configure(){
+    func configureMainTabBar(){
         
         view.backgroundColor = .systemBackground
         
