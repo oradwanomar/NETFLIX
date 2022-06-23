@@ -21,7 +21,7 @@ class MainTabBarViewController: UITabBarController {
         
         view.backgroundColor = .systemBackground
         
-        let homeVC = setUpMainTabBarNavigationController(selectedImage: UIImage(systemName: "house.fill")!, unselectedImage: UIImage(systemName: "house")!, viewController: HomeViewController(), title: "Home")
+        let homeVC = setUpMainTabBarNavigationController(selectedImage: UIImage(systemName: "house.fill")!, unselectedImage: UIImage(systemName: "house ")!, viewController: HomeViewController(), title: "Home")
         
         let upcomingVC = setUpMainTabBarNavigationController(selectedImage: UIImage(systemName: "play.circle.fill")!, unselectedImage: UIImage(systemName: "play.circle")!, viewController: UpcomingViewController(), title: "Coming Soon")
         
